@@ -1,0 +1,44 @@
+:root {
+  --colNum: 20;
+}
+.btn-cont {
+  margin-left: 29%;
+  display: flex;
+  height: 100px;
+  width: 42%;
+  align-items: center;
+  justify-content: space-between;
+}
+.btn {
+  border: 2px solid #6ab8f7;
+  border-radius: 5px;
+  background-color: white;
+  font-size: 20px;
+  color: rgba(33, 150, 243, 0.8);
+  transition-duration: 0.4s;
+}
+.btn:hover {
+  background-color: #6ab8f7;
+  color: white;
+}
+.outer-cont {
+  display: flex;
+  justify-content: center;
+}
+.grid-container {
+  height: 800px;
+  width: 800px;
+  display: grid;
+  background-color: #2196f3;
+  border: solid grey;
+  grid-template-columns: repeat(var(--colNum), auto);
+  grid-template-rows: repeat(var(--colNum), auto);
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.grid-lines {
+  border: solid white;
+  border-width: 0.1px;
+}
