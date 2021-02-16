@@ -1,3 +1,4 @@
 # Dynamic sketchpad
 
-[Check it out]()
+[Check it out](https://vdassios.github.io/sketch/)
+![Preview](preview.png)
